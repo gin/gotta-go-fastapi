@@ -1,0 +1,15 @@
+[project]
+name = "gotta-go-fastapi"
+version = "0.1.0"
+description = "Serving local LLM to the public"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.141.1",
+    "pydantic>=2.13.4",
+]
+
+[dependency-groups]
+dev = [
+    "uvicorn>=0.52.4",
+]
