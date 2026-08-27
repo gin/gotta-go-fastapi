@@ -1,7 +1,7 @@
 [project]
 name = "gotta-go-fastapi"
 version = "0.1.0"
-description = "Serving local LLM to the public"
+description = "Serving LLMs to the public"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
